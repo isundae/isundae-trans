@@ -1,0 +1,27 @@
+{
+  "name": "isundae-trans",
+  "version": "0.0.8",
+  "description": "",
+  "main": "./lib/api.js",
+  "scripts": {
+    "dev": "tsc -w && npm i -g",
+    "build": "tsc",
+    "publish": "npm i -g"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^0.27.2",
+    "commander": "^9.3.0",
+    "console-color-mr": "^2.0.2",
+    "dotenv": "^16.0.1"
+  },
+  "bin": {
+    "trans": "./lib/index.js"
+  },
+  "devDependencies": {
+    "@types/node": "^18.0.1",
+    "@types/commander": "^2.12.2"
+  }
+}
