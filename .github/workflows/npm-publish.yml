@@ -22,7 +22,7 @@ jobs:
       - uses: actions/setup-node@v3
         with:
           # 设置发包 npm 地址仓库
-          registry-url: https://npm.pkg.github.com
+          registry-url: https://registry.npmjs.org
       # 安装依赖，相当于 npm ci
       - run: npm install
       # 执行构建步骤
